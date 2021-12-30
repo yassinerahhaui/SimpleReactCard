@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Markazi+Text:wght@600&family=Quantico:ital,wght@1,700&display=swap");
+body {
+  background-color: #ccc;
+}
+
+.navbar {
+  background-color: #00061f;
+  color: #ccc;
+  font-family: "Markazi Text", serif;
+}
+
+.product-card {
+  position: relative;
+  border: 1px solid #00061f;
+  margin: 10px 0;
+  border-radius: 4px;
+  background-color: #00061f;
+  padding: 5px;
+}
+.product-card .product-img {
+  width: 100%;
+  height: 250px;
+}
+.product-card .sale {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  padding: 3px 10px 0 10px;
+  background-color: #f32f2fe0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #ccc;
+  box-shadow: 0 0 5px red, 0 0 5px #0f0808;
+  text-shadow: 0 0 5px #00061f 0 0 5px #00061f;
+  transform: rotate(25deg);
+  font-family: "Amiri", serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.product-card .product-info {
+  width: 100%;
+  position: relative;
+  display: block;
+  color: #ccc;
+  padding: 5px 0;
+}
+.product-card .product-info .title {
+  height: 50px;
+  margin: 0;
+  line-height: 0.8;
+  font-size: 22px;
+  font-family: "Markazi Text", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.product-card .product-info .prices {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-left: auto;
+  position: relative;
+  text-align: right;
+  font-family: "Quantico", sans-serif;
+}
+.product-card .product-info .prices .price {
+  font-size: 25px;
+  text-decoration: underline;
+  text-shadow: 0 0 2px blue, 0 0 2px blue;
+}
+.product-card .product-info .prices .old-price {
+  text-decoration: line-through 1px;
+  padding: 0 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
